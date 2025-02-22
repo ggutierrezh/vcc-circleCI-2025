@@ -17,7 +17,12 @@ jobs:
       - run: echo ...
 
 workflows:
-  hello:
+  workflow1:
+    jobs:
+      - saluda
+      - despidete
+
+  workflow2:
     jobs:
       - saluda
       - despidete
