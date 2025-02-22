@@ -6,6 +6,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - run: echo Hola
+      - run: echo Como te encuentras
   despidete:
     docker:
       - image: cimg/base:stable
@@ -13,6 +14,7 @@ jobs:
       - run: echo Bueno, me retiro
       - run: echo Nos vemos
       - run: echo Adios
+      - run: echo ...
 
 workflows:
   hello:
