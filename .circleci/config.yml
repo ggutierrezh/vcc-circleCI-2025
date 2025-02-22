@@ -10,7 +10,7 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
-      - run: Bueno, me retiro
+      - run: 'Bueno, me retiro'
       - run: Nos vemos
       - run: Adios
 
